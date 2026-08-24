@@ -1,0 +1,88 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(119, 241, 235); /* Light cyan background */
+}
+
+.form-container {
+    background-color: white;
+    padding: 30px; /* Increased padding */
+    border-radius: 12px; /* Slightly larger border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+    width: 350px; /* Increased width */
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 25px; /* Increased margin */
+    color: #333; /* Darker text */
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px; /* Increased margin */
+    color: #555;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="number"] {
+    width: calc(100% - 16px); /* Adjusted width */
+    padding: 8px; /* Increased padding */
+    margin-bottom: 20px; /* Increased margin */
+    border: 1px solid #ccc; /* Slightly darker border */
+    border-radius: 6px; /* Slightly larger border-radius */
+}
+
+.form-container .radio-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px; /* Increased margin */
+}
+
+.form-container .radio-group label {
+    display: inline-flex;
+    align-items: center;
+    color: #555;
+}
+
+.form-container .radio-group input[type="radio"] {
+    margin-right: 8px;
+}
+
+.form-container .checkbox-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px; /* Increased margin */
+}
+
+.form-container .checkbox-group label {
+    display: inline-flex;
+    align-items: center;
+    color: #555;
+}
+
+.form-container .checkbox-group input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    background-color: rgb(79, 228, 220);
+    color: white;
+    border: none;
+    border-radius: 6px; /* Slightly larger border-radius */
+    cursor: pointer;
+    font-size: 16px; /* Slightly larger font */
+}
+
+.form-container button:hover {
+    background-color: rgb(74, 219, 212);
+}

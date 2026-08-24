@@ -1,0 +1,123 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .page-header {
+    background-color: rgb(230, 184, 67); /* Light grey background */
+    display: flex;
+     /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 20px;
+  }
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+}
+  
+.logo {
+    max-height: 50px; /* Adjust logo size */
+  }
+  
+.page-title {
+    margin: 0 auto;
+    font-size: 24px;
+   /* flex-grow: 1; /* Allow title to grow and take center space 
+    text-align: center;*/
+    
+  }
+  .about-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.about-content h2 {
+    color: rgb(106, 106, 236);
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.about-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-content ul li {
+    background: rgb(78, 226, 78);
+    color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.about-us-section {
+    margin-bottom: 30px;
+  }
+  
+  .about-us-section h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: rgb(106, 106, 236);
+
+  }
+  
+  .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .team-member {
+    width: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2),
+                -3px -3px 8px rgba(255, 255, 255, 0.8);
+    margin: 10px 0;
+  }
+  
+  .team-member img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .team-member-info {
+    padding: 15px;
+  }
+  
+  .team-member-info h3 {
+    margin: 0 0 5px;
+  }
+  
+  .contact-info {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 5px;
+  }
+  
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
